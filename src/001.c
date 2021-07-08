@@ -58,7 +58,6 @@ int main(int argc, char **argv) {
 
   for (;;) {
     /* trigger our BPF program */
-    fprintf(stderr, ".");
     sleep(1);
   }
 
